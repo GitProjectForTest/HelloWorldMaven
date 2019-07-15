@@ -21,6 +21,19 @@
          <url>file:///var/lib/jenkins/my-artifacts/</url>
        </repository>
    </distributionManagement>
+  
+<distributionManagement>
+  <repository>
+    <id>releases</id>
+    <!-- CHANGE HERE by your team nexus server -->
+    <url>http://34.238.253.86:8081/repository/SAMPLE-RELEASE/</url>
+  </repository>
+  <snapshotRepository>
+    <id>snapshots</id>
+    <!-- CHANGE HERE by your team nexus server -->
+    <url>http://34.238.253.86:8081/repository/SAMPLE-SNAP/</url>
+  </snapshotRepository>
+</distributionManagement>
 
   <dependencies>
     <dependency>
